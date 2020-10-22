@@ -1,0 +1,43 @@
+{
+  "algorithm": "ListNet",
+  "evaluation": {
+    "params": {
+      "k": 10
+    },
+    "evaluator": "NDCG"
+  },
+  "params": {
+    "regularization": {
+      "rate": 0.01,
+      "regularizer": "L2"
+    },
+    "optimizer": "adam",
+    "weightInit": "xavier",
+    "layers": [
+      {
+        "activator": "Identity",
+        "num": 15
+      },
+      {
+        "activator": "Identity",
+        "num": 1
+      }
+    ],
+    "learningRate": 0.001
+  },
+  "verbose": true,
+  "model": {
+    "format": "json",
+    "file": "../../../MQ2008/Fold1/models/ltr4l_181.json"
+  },
+  "numIterations": 1000,
+  "report": {
+    "format": "csv",
+    "file": "../../../MQ2008/Fold1/reports/ltr4l-report_181.csv"
+  },
+  "dataSet": {
+    "test": "../../../MQ2008/Fold1/test.txt",
+    "training": "../../../MQ2008/Fold1/train.txt",
+    "validation": "../../../MQ2008/Fold1/vali.txt"
+  }
+}

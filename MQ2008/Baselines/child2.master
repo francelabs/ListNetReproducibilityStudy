@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+    <title>LETOR</title>
+    <link href="../../styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <br />
+    <table width="961" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="2" align="left" valign="top" style="background-image: url(../../images/bannerrepeat-x.jpg);
+                background-repeat: repeat-x">
+                <a href="http://research.microsoft.com/">
+                    <img src="../../images/banner-left.jpg" alt="" width="218" height="56" border="0" align="left" /></a><img
+                        src="../../images/banner-right.jpg" alt="" width="137" height="56" align="right" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="left" valign="top">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="218" align="left" valign="top" style="background-image: url(../../images/navrepeat-y.jpg);
+                            background-repeat: repeat-y">
+                            <a href="http://research.microsoft.com/en-us/um/beijing/projects/letor">
+                                <img src="../../images/logo.png" alt="" width="218" height="100" border="0" /></a>
+                            <div id="nav" style="margin-top: 0px; margin-left: 15px; margin-right: 15px">
+                                <ul>
+                                    <li class="off"><a href="../../default.aspx">Home</a></li>
+                                </ul>
+                                <div class="navHead">
+                                    LETOR 3.0</div>
+                                <ul>
+                                    <li class="off"><a href="../../letor3dataset.aspx">Datasets</a></li>
+                                    <li class="off"><a href="../../letor3baseline.aspx">Baselines</a></li>
+                                    <li class="off"><a href="../../letor3download.aspx">Download</a></li>
+                                </ul>
+                              <div class="navHead">
+                                    LETOR 4.0</div>
+                                <ul>
+                                    <li class="off"><a href="../../letor4dataset.aspx">Datasets</a></li>
+                                    <li class="off"><a href="../../letor4baseline.aspx">Baselines</a></li>
+                                    <li class="off"><a href="../../letor4download.aspx">Download</a></li>
+                                </ul>
+                              <div class="navHead">
+                                    Resources</div>
+                                <ul>
+                                    <li class="off"><a href="../../paper.aspx">Papers</a></li>
+                                    <li class="off"><a href="../../tutorial.aspx">Tutorials</a></li>
+                                    <li class="off"><a href="../../event.aspx">Events</a></li>
+                                </ul>
+                              <div class="navHead">
+                                    Community</div>
+                                <ul>
+                                    <li class="off"><a href="../../group.aspx">Research Groups</a></li>
+                                    <li class="off"><a href="http://learningtorank.spaces.live.com/default.aspx">Tech Blogs</a></li>
+                                </ul>
+                              <div class="navHead">
+                                    Contact Us</div>
+                                <ul>
+                                    <li class="off"><a href="../../letorteam.aspx">LETOR Team</a></li>
+                                    <li class="off"><a href="http://research.microsoft.com/en-us/groups/irm/default.aspx">IRM Group</a></li>
+                                    <li class="off"><a href="http://research.microsoft.com/en-us/labs/asia/default.aspx">MSRA</a></li>
+                                </ul>
+                               
+                            </div>
+                        </td>
+                        <td align="left" valign="top" bgcolor="#FFFFFF">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td style="background-image: url(../../images/contoprepeat-x.jpg); background-repeat: repeat-x;
+                                        height: 5px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top" bgcolor="#FFFFFF">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="15">
+                                            <tr>
+                                                <td>
+                                                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                                        <div style="margin: 15px">
+                                                            <div id="main_text">
+                                                                <asp:ContentPlaceHolder ID="Content" runat="server">
+                                                                    <p>
+                                                                        CONTENT HERE</p>
+                                                                </asp:ContentPlaceHolder>
+                                                            </div>
+                                                        </div>
+                                                    </asp:ContentPlaceHolder>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="5" align="left" valign="top" style="background-image: url(../images/conrepeat-y.jpg);
+                            background-repeat: repeat-y">
+                            <img src="../images/contop-corner.jpg" alt="" width="5" height="5" align="right" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top">
+                            <img src="../images/nav-bottom.jpg" alt="" width="218" height="5" />
+                        </td>
+                        <td colspan="2" align="left" valign="top" style="background-image: url(../../images/conbttmrepeat-x.jpg);
+                            background-repeat: repeat-x; height: 5px">
+                            <img src="../../images/conbottm-corner.jpg" alt="" width="5" height="5" align="right" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="218" align="left" valign="top" style="height: 10px">
+            </td>
+            <td width="582" align="left" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="left" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="5">
+                            <img src="../../images/ftrcorner-left.jpg" alt="" width="5" height="26" />
+                        </td>
+                        <td style="background-image: url(../../images/ftrepeat-x.jpg); background-repeat: repeat-x">
+                            <span style="margin-top: 0px; margin-left: 5px; width: 650px; float: left"><span
+                                class="copyright">©2009 Microsoft Corporation. All rights reserved.</span> &nbsp;<a
+                                    href="http://go.microsoft.com/?linkid=4412892" class="copyrightLink">Terms of Use</a>
+                                <span class="copyright">|</span> <a href="http://go.microsoft.com/?linkid=4412893"
+                                    class="copyrightLink">Trademarks</a> <span class="copyright">|</span> <a href="http://go.microsoft.com/?linkid=4412894"
+                                        class="copyrightLink">Privacy Statement</a></span>
+                        </td>
+                        <td width="5">
+                            <img src="../../images/ftrcorner-right.jpg" alt="" width="5" height="26" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

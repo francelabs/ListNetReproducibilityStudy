@@ -1,0 +1,22 @@
+language: java
+os: linux
+jdk:
+  - openjdk8
+  - openjdk11
+
+cache:
+  directories:
+    - $HOME/.ivy2
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install ivy ant-optional -y
+  - sudo ln -s -T /usr/share/java/ivy.jar /usr/share/ant/lib/ivy*.jar
+
+install:
+  - ant clean-ivycache
+
+script:
+  - ant clean ivy-bootstrap compile test
+  - cd ltr4l-solr
+  - ant clean ivy-bootstrap compile test

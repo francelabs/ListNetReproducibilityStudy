@@ -1,0 +1,53 @@
+This document contains Third Party Software Notices and/or Additional Terms and Conditions 
+for licensed third party software components included within FranceLabs software products.
+ 
+These notices and/or additional terms and conditions are made a part of and incorporated by 
+reference into the Datafari Software License Agreement.
+
+===========================  Python Libraries  ===========================
+
+~~~ Tensorflow ~~~
+Apache License 2.0
+
+~~~ Keras ~~~
+MIT License
+
+~~~ random ~~~
+PSF License (Python 2.1.1)
+
+~~~ numpy ~~~
+BSD 3-Clause License
+
+~~~ tqdm ~~~
+MIT License
+Mozilla Public License 2.0 (MPL 2.0)
+ 
+ ~~~ time ~~~
+PSF License
+
+~~~ pandas ~~~
+BSD 3-Clause License
+
+~~~ os ~~~
+PSF License
+
+~~~ itertools ~~~
+MIT License
+
+~~~  logging ~~~
+Copyright 2001-2010 by Vinay Sajip ###??????
+
+~~~ matplotlib ~~~
+MDT License
+
+~~~ sklearn ~~~
+BSD License
+
+~~~ __future__ ~~~
+MIT License 
+
+~~~ scipy ~~~
+BSD License
+
+~~~ json ~~~
+PSF License

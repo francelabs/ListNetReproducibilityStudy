@@ -1,0 +1,15 @@
+.idea
+*.iml
+Data
+data
+lib
+classes
+test-result
+target
+LTR4L-*.jar
+jacoco-report
+javadocs
+comparison
+out
+temp*
+solr-models

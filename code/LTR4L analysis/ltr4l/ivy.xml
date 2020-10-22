@@ -1,0 +1,59 @@
+<!--
+ 
+  Copyright 2018 org.LTR4L
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+  http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ 
+-->
+<ivy-module version="2.0">
+  <info organisation="org.ltr4l" module="org.ltr4l"/>
+  <dependencies>
+    <dependency org="${ivy.jar.junit.org}" name="${ivy.jar.junit.name}" rev="${ivy.jar.junit.rev}">
+      <artifact name="${ivy.jar.junit.name}" type="jar"
+                url="https://repo1.maven.org/maven2/junit/${ivy.jar.junit.name}/${ivy.jar.junit.rev}/${ivy.jar.junit.name}-${ivy.jar.junit.rev}.jar"/>
+    </dependency>
+    <dependency org="${ivy.jar.jackson-core.org}" name="${ivy.jar.jackson-core.name}" rev="${ivy.jar.jackson.rev}">
+      <artifact name="${ivy.jar.jackson-core.name}" type="jar"
+                url="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/${ivy.jar.jackson-core.name}/${ivy.jar.jackson.rev}/${ivy.jar.jackson-core.name}-${ivy.jar.jackson.rev}.jar"/>
+    </dependency>
+    <dependency org="${ivy.jar.jackson-databind.org}" name="${ivy.jar.jackson-databind.name}" rev="${ivy.jar.jackson.rev}">
+      <artifact name="${ivy.jar.jackson-databind.name}" type="jar"
+                url="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/${ivy.jar.jackson-databind.name}/${ivy.jar.jackson.rev}/${ivy.jar.jackson-databind.name}-${ivy.jar.jackson.rev}.jar"/>
+    </dependency>
+    <dependency org="${ivy.jar.jackson-annotations.org}" name="${ivy.jar.jackson-annotations.name}" rev="${ivy.jar.jackson.rev}">
+      <artifact name="${ivy.jar.jackson-annotations.name}" type="jar"
+                url="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/${ivy.jar.jackson-annotations.name}/${ivy.jar.jackson.rev}/${ivy.jar.jackson-annotations.name}-${ivy.jar.jackson.rev}.jar"/>
+    </dependency>
+    <dependency org="${ivy.jar.httpcomponents.org}" name="${ivy.jar.httpcomponents-core.name}" rev="${ivy.jar.httpcomponents-core.rev}">
+      <artifact name="${ivy.jar.httpcomponents-core.name}" type="jar"
+                url="https://repo1.maven.org/maven2/org/apache/httpcomponents/${ivy.jar.httpcomponents-core.name}/${ivy.jar.httpcomponents-core.rev}/${ivy.jar.httpcomponents-core.name}-${ivy.jar.httpcomponents-core.rev}.jar"/>
+    </dependency>
+    <dependency org="${ivy.jar.httpcomponents.org}" name="${ivy.jar.httpcomponents-client.name}" rev="${ivy.jar.httpcomponents-client.rev}">
+      <artifact name="${ivy.jar.httpcomponents-client.name}" type="jar"
+                url="https://repo1.maven.org/maven2/org/apache/httpcomponents/${ivy.jar.httpcomponents-client.name}/${ivy.jar.httpcomponents-client.rev}/${ivy.jar.httpcomponents-client.name}-${ivy.jar.httpcomponents-client.rev}.jar"/>
+    </dependency>
+    <dependency org="${ivy.jar.hamcrest.org}" name="${ivy.jar.hamcrest.name}" rev="${ivy.jar.hamcrest.rev}">
+      <artifact name="${ivy.jar.hamcrest.name}" type="jar"
+                url="https://repo1.maven.org/maven2/org/hamcrest/${ivy.jar.hamcrest.name}/${ivy.jar.hamcrest.rev}/${ivy.jar.hamcrest.name}-${ivy.jar.hamcrest.rev}.jar"/>
+    </dependency>
+    <dependency org="${ivy.jar.commons-cli.org}" name="${ivy.jar.commons-cli.name}" rev="${ivy.jar.commons-cli.rev}">
+      <artifact name="${ivy.jar.commons-cli.name}" type="jar"
+                url="https://repo1.maven.org/maven2/commons-cli/${ivy.jar.commons-cli.name}/${ivy.jar.commons-cli.rev}/${ivy.jar.commons-cli.name}-${ivy.jar.commons-cli.rev}.jar"/>
+    </dependency>
+    <!-- For HttpClients -->
+    <dependency org="${ivy.jar.commons-logging.org}" name="${ivy.jar.commons-logging.name}" rev="${ivy.jar.commons-logging.rev}">
+      <artifact name="${ivy.jar.commons-logging.name}" type="jar"
+                url="https://repo1.maven.org/maven2/commons-logging/${ivy.jar.commons-logging.name}/${ivy.jar.commons-logging.rev}/${ivy.jar.commons-logging.name}-${ivy.jar.commons-logging.rev}.jar"/>
+    </dependency>
+  </dependencies>
+</ivy-module>
